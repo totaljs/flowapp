@@ -6,16 +6,16 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/totaljs/flowapp",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "total.js",
+    "Flow",
+    "Visual",
+    "Programming",
+    "Interface"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Peter Širka",
+  "license": "MIT",
   "devDependencies": {
     "electron": "~1.7.8",
     "total.js": "~2.9.2"
