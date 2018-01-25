@@ -6,6 +6,7 @@ App runs on `9898` port.
 
 - `$ npm install -g electron-packager`
 - `$ cd flowapp`
+- `$ npm install`
 - __macOS__ `$ electron-packager . Flow --overwrite --icon icon.icns`
 - __Linux__ `$ electron-packager . Flow --overwrite --icon icon.png`
 - __Windows__ `$ electron-packager . Flow --overwrite --icon icon.ico`
