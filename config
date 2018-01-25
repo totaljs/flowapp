@@ -1,3 +1,3 @@
-default-port              : 9999
+default-port              : 9898
 directory-temp            :
-package#flow  (Object)    : { dark: false }
+package#flow  (Object)    : { dark: false, token: ['FlowKilledRed'] }
