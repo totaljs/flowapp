@@ -1,6 +1,6 @@
 {
   "name": "Flow",
-  "version": "1.0.0",
+  "version": "10.0.0",
   "description": "Flow",
   "main": "main.js",
   "scripts": {
@@ -17,11 +17,11 @@
   "author": "Peter Širka",
   "license": "MIT",
   "devDependencies": {
-    "electron": "~1.7.8",
-    "total.js": "latest"
+    "electron": "^23.1.0",
+    "total4": "latest"
   },
   "dependencies": {
-    "electron-window-state": "^4.1.1",
-    "total.js": "latest"
+    "electron-window-state": "latest",
+    "total4": "latest"
   }
 }

@@ -18,8 +18,8 @@ function createWindow () {
 		mainWindow = null;
 	});
 	mainWindowState.manage(mainWindow);
-	global.F === undefined && require('total.js').http('release');
-	ON('ready', () => mainWindow.loadURL('http://127.0.0.1:9898/$flow/?token=FlowKilledRed'));
+	global.F === undefined && require('total4').http('release', { port: 9898 });
+	ON('ready', () => mainWindow.loadURL('http://127.0.0.1:9898/'));
 }
 
 app.on('ready', createWindow);
