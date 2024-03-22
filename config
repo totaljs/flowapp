@@ -1,25 +1,24 @@
 name                        : Total.js Flow v10
+flowstream_worker           : fork
 
 cookie          (generate)  : 6
 cookie_secret   (generate)  : 10
-allow_custom_titles         : true
 
-flowstream_worker           : fork
+$api                        : /fapi/
+$customtitles               : true
+
+// directory                   : /absolute/path/to/flow/database/
 
 // Disables: Worker/Fork
-// flowstream_worker        : false
-
-// Uses WorkerThread instead of ChildProcess/Fork
-// flowstream_worker        : true
+// flowstream_worker           : false
 
 // Replaces WorkerThread for the ChildProcess/Fork
-// flowstream_worker        : fork
+// flowstream_worker           : fork
 
-// Enables sandbox for NPM dependencies (we recommend to use it for "worker" mode only)
-// flowstream_sandbox          : true
-
-// Max. memory size for forked processes (in MB)
+// Memory size for forked processes (in MB)
 // flowstream_memory           : 4069
 
-// Flow directory
-// directory                   : /absolute/path/to/flow/database/
+// $root                       : subdomain
+
+// $minifyjs                   : false
+// $minifyhtml                 : false

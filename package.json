@@ -18,10 +18,10 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^23.1.0",
-    "total4": "latest"
+    "total5": "beta"
   },
   "dependencies": {
     "electron-window-state": "latest",
-    "total4": "latest"
+    "total5": "beta"
   }
 }

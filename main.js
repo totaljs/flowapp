@@ -18,7 +18,9 @@ function createWindow () {
 		mainWindow = null;
 	});
 	mainWindowState.manage(mainWindow);
-	global.F === undefined && require('total4').http('release', { port: 9898 });
+	if (global.Total === undefined)
+		require('total5');
+	Total.run({ release: true, port: 9898 })
 	ON('ready', () => mainWindow.loadURL('http://127.0.0.1:9898/'));
 }
 
